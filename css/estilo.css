@@ -1,0 +1,871 @@
+/*mobile first 0px-500px*/
+*{
+    margin:0;
+    padding:0;
+}
+
+@font-face{
+    font-family: Saiyan-Sans;
+    src: url(../fonts/Saiyan-Sans.ttf);
+}
+
+body{
+    background-image: url("../img/backgrounddos.jpg");
+}
+
+/*Index*/
+header{
+    background-color: black;
+}
+
+
+
+.navbar{
+    background-color: black;
+}
+
+.dragon-ball{
+    margin-left: 38%;
+    margin-top: 3%;
+}
+
+
+.negro{
+    color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #212529;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #212529;
+}
+
+
+
+.seccionuno h2{
+    font-size: 100px;
+    color: black;
+
+}
+
+.seccionuno{
+    width: 100vh;
+    height: 100vh;
+    margin-bottom: 50%;
+
+}
+
+.seccionuno iframe{
+    width: 75%;
+    height: 35%;
+    padding-left: 14%;
+    margin-top: -50%;
+    margin-left: 54%;
+    margin-bottom: 5%;
+}
+
+.secciondos{
+    margin-bottom: 20%;
+}
+
+.secciondos iframe{
+    margin-top: -70%;
+    margin-left: 15%;
+    margin-right: -15%;
+    width: 1080;
+    height: 400;
+    padding-left: 3%;
+    padding-right: 0%;
+
+}
+
+.songoku img{
+    margin-top: 65px;
+}
+
+.songoku button{
+    color: orange;
+    font-size: 30px;
+    font-family: Saiyan-Sans;
+    height: 130px;
+    width: 300px;
+    background-color: black;
+    padding: 20px;
+    margin-top: 53px;
+    margin-left: 850px;
+}
+
+.vegeta img{
+    margin-top: 65px;
+}
+
+.vegeta button{
+    color: orange;
+    font-size: 30px;
+    font-family: Saiyan-Sans;
+    height: 130px;
+    width: 300px;
+    background-color: black;
+    padding: 20px;
+    margin-top: 53px;
+    margin-left: 850px;
+}
+
+.gohan img{
+    margin-top: 65px;
+}
+
+.gohan button{
+    color: orange;
+    font-size: 30px;
+    font-family: Saiyan-Sans;
+    height: 130px;
+    width: 300px;
+    background-color: black;
+    padding: 20px;
+    margin-top: 53px;
+    margin-left: 850px;
+}
+
+.piccolo img{
+    margin-top: 65px;
+}
+
+.piccolo button{
+    color: orange;
+    font-size: 30px;
+    font-family: Saiyan-Sans;
+    height: 130px;
+    width: 300px;
+    background-color: black;
+    padding: 20px;
+    margin-top: 53px;
+    margin-left: 850px;
+}
+
+.beerus img{
+    margin-top: 65px;
+}
+
+.beerus button{
+    color: orange;
+    font-size: 30px;
+    font-family: Saiyan-Sans;
+    height: 130px;
+    width: 300px;
+    background-color: black;
+    padding: 20px;
+    margin-top: 53px;
+    margin-left: 850px;
+}
+
+.whis img{
+    margin-top: 65px;
+}
+
+.whis button{
+    color: orange;
+    font-size: 30px;
+    font-family: Saiyan-Sans;
+    height: 130px;
+    width: 300px;
+    background-color: black;
+    padding: 20px;
+    margin-top: 53px;
+    margin-left: 850px;
+}
+
+.broly img{
+    margin-top: 65px;
+}
+
+.broly button{
+    color: orange;
+    font-size: 30px;
+    font-family: Saiyan-Sans;
+    height: 130px;
+    width: 300px;
+    background-color: black;
+    padding: 20px;
+    margin-top: 53px;
+    margin-left: 850px;
+}
+
+.villanos h2{
+    margin-top: 150px;
+}
+
+.freezer img{
+    margin-top: 65px;
+}
+
+.freezer button{
+    color: orange;
+    font-size: 30px;
+    font-family: Saiyan-Sans;
+    height: 130px;
+    width: 300px;
+    background-color: black;
+    padding: 20px;
+    margin-top: 53px;
+    margin-left: 850px;
+}
+
+.cell img{
+    margin-top: 65px;
+}
+
+.cell button{
+    color: orange;
+    font-size: 30px;
+    font-family: Saiyan-Sans;
+    height: 130px;
+    width: 300px;
+    background-color: black;
+    padding: 20px;
+    margin-top: 53px;
+    margin-left: 850px;
+}
+
+.majinBuu img{
+    margin-top: 65px;
+}
+
+.majinBuu button{
+    color: orange;
+    font-size: 30px;
+    font-family: Saiyan-Sans;
+    height: 130px;
+    width: 300px;
+    background-color: black;
+    padding: 20px;
+    margin-top: 53px;
+    margin-left: 850px;
+}
+
+.moro img{
+    margin-top: 65px;
+}
+
+.moro button{
+    color: orange;
+    font-size: 30px;
+    font-family: Saiyan-Sans;
+    height: 130px;
+    width: 300px;
+    background-color: black;
+    padding: 20px;
+    margin-top: 53px;
+    margin-left: 850px;
+}
+
+.gas img{
+    margin-top: 65px;
+}
+
+.gas button{
+    color: orange;
+    font-size: 30px;
+    font-family: Saiyan-Sans;
+    height: 130px;
+    width: 300px;
+    background-color: black;
+    padding: 20px;
+    margin-top: 53px;
+    margin-left: 850px;
+}
+
+footer{
+    padding: 20px;
+    margin-bottom:-10px;
+    margin-top: 250px;
+    background-color: black;
+}
+
+.iconos{
+    width: 130px;
+    height: 130px;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.redes a{
+    padding: 10px;
+    padding-right: 0px;
+}
+
+.navigator{
+    margin-top: -181px;
+    margin-left: -1650px;
+}
+
+.barra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 5px;
+
+}
+
+.producers{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: -150px;
+    padding: 0px;
+}
+
+.logo{
+    width: 200px;
+    height: 130px;
+}
+
+.animes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.carteles{
+    width: 400px;
+    height: 600px;
+    margin-top: 120px;
+    border: 10px solid black ;
+}
+
+
+/*Index Query*/
+
+/*Nav*/
+@media(max-width: 320px){
+    body{
+        max-width: 100vh;
+    }
+
+    header{
+        background-color: black;
+        width: 100vh;
+    }
+
+    .dragon-ball{
+        margin-left: 25%;
+        margin-top: 6%;
+    }
+    
+/*Fin Nav*/
+
+/*Seccion anime*/
+.seccionuno{
+    background-image: url("../img/seccionUnoresponsive2.png");
+    width: 100vh;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 60%;
+
+}
+.seccionuno img{
+    display: none;
+}
+
+.seccionuno iframe{
+    display: none;
+}
+/*Fin Seccion anime*/
+
+/*Seccion Peliculas*/
+.secciondos{
+    background-image: url(../img/secciondosresponsive.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vh;
+    height: 100vh;
+    margin-bottom: 60%;
+}
+
+.secciondos img{
+    display: none;
+}
+
+.secciondos iframe{
+    display: none;
+}
+
+/*Fin seccion Peliculas*/
+
+/*Seccion Manga*/
+.secciontres{
+    background-image: url(../img/seccionTresresponsive.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vh;
+    height: 100vh;
+}
+
+.secciontres img{
+    display: none;
+}
+
+/*Inicio Footer*/
+footer{
+    padding: 20px;
+    margin-bottom:-10px;
+    margin-top: 250px;
+    background-color: black;
+    width: 277%;
+}
+
+.iconos{
+    width: 130px;
+    height: 130px;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 1%;
+    padding-left: 20%;
+    padding-right: 75%;
+
+
+}
+
+.navigator{
+    padding-right: 28%;
+}
+
+.redes a{
+    padding: 10px;
+    padding-right: 0px;
+}
+
+
+.barra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 5px;
+
+}
+
+.producers{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: -150px;
+    padding: 0px;
+}
+
+.logo{
+    width: 200px;
+    height: 130px;
+}
+}
+/*Fin Footer*/
+
+@media(max-width: 375px){
+    body{
+        max-width: 100vh;
+    }
+
+    header{
+        background-color: black;
+        width: 117.5vh;
+    }
+
+    .dragon-ball{
+        margin-left: 27%;
+        margin-top: 6%;
+    }
+
+/*Seccion anime*/
+.seccionuno{
+    background-image: url("../img/seccionUnoresponsive.png");
+    width: 117vh;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 60%;
+}
+.seccionuno img{
+    display: none;
+}
+
+.seccionuno iframe{
+    display: none;
+}
+/*Fin Seccion anime*/
+
+/*Seccion Peliculas*/
+.secciondos{
+    background-image: url(../img/secciondosresponsive2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 117vh;
+    height: 100vh;
+    margin-bottom: 60%;
+}
+
+.secciondos img{
+    display: none;
+}
+
+.secciondos iframe{
+    display: none;
+}
+/*Fin seccion Peliculas*/
+
+/*Seccion Manga*/
+.secciontres{
+    background-image: url(../img/seccionTresresponsive2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 117vh;
+    height: 100vh;
+}
+
+.secciontres img{
+    display: none;
+}
+
+/*Inicio Footer*/
+
+footer{
+    padding: 20px;
+    margin-bottom:-10px;
+    margin-top: 250px;
+    background-color: black;
+    width: 277%;
+}
+
+.iconos{
+    width: 130px;
+    height: 130px;
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 1%;
+    padding-left: 20%;
+    padding-right: 75%;
+}
+
+.navigator{
+    padding-right: 28%;
+}
+
+.redes a{
+    padding: 10px;
+    padding-right: 0px;
+}
+
+
+.barra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 5px;
+}
+
+.producers{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: -150px;
+    padding: 0px;
+}
+
+.logo{
+    width: 200px;
+    height: 130px;
+}
+}
+/*Fin Footer*/
+
+@media(max-width: 425px){
+    body{
+        max-width: 100vh;
+    }
+
+    header{
+        background-color: black;
+        width: 117vh;
+    }
+
+    .dragon-ball{
+        margin-left: 25%;
+        margin-top: 6%;
+    }
+
+    .seccionuno{
+        background-image: url("../img/seccionUnoresponsive2.png");
+        width: 117vh;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 60%;
+    
+    }
+    .seccionuno img{
+        display: none;
+    }
+    
+    .seccionuno iframe{
+        display: none;
+    }
+
+    .secciondos{
+        background-image: url(../img/secciondosresponsive2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 117vh;
+        height: 100vh;
+        margin-bottom: 60%;
+    }
+    
+    .secciondos img{
+        display: none;
+    }
+    
+    .secciondos iframe{
+        display: none;
+    }
+
+    .secciontres{
+        background-image: url(../img/seccionTresresponsive2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 117vh;
+        height: 100vh;
+    }
+    
+    .secciontres img{
+        display: none;
+    }
+
+    footer{
+        padding: 20px;
+        margin-bottom:-10px;
+        margin-top: 250px;
+        background-color: black;
+        width: 244%;
+    }
+    
+    .iconos{
+        width: 130px;
+        height: 130px;
+    }
+    
+    .redes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 1%;
+        padding-left: 20%;
+        padding-right: 75%;
+    }
+    
+    .navigator{
+        padding-right: 28%;
+    }
+    
+    .redes a{
+        padding: 10px;
+        padding-right: 0px;
+    }
+    
+    
+    .barra{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .barra a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        padding: 5px;
+    }
+    
+    .producers{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-top: -150px;
+        padding: 0px;
+    }
+    
+    .logo{
+        width: 200px;
+        height: 130px;
+    }
+}
+
+@media(max-width: 1440px){
+    body{
+        max-width: 100vh;
+    }
+
+    header{
+        background-color: black;
+        width: 117vh;
+    }
+
+    .dragon-ball{
+        margin-left: 30%;
+        margin-top: 6%;
+    }
+
+    .seccionuno{
+        background-image: url("../img/seccionUno1024.png");
+        width: 117vh;
+        height: 78vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 60%;
+    
+    }
+    .seccionuno img{
+        display: none;
+    }
+
+    .seccionuno iframe{
+        display: none;
+    }
+
+    .secciondos{
+        background-image: url(../img/secciondos1024.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 117vh;
+        height: 78vh;
+        margin-bottom: 60%;
+    }
+    
+    .secciondos img{
+        display: none;
+    }
+    
+    .secciondos iframe{
+        display: none;
+    }
+
+    .secciontres{
+        background-image: url(../img/seccionTres1024.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 117vh;
+        height: 78vh;
+    }
+    
+    .secciontres img{
+        display: none;
+    }
+
+footer{
+        padding: 20px;
+        margin-bottom:-10px;
+        margin-top: 250px;
+        background-color: black;
+        width: 117%;
+    }
+    
+    .iconos{
+        width: 130px;
+        height: 130px;
+    }
+    
+    .redes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 1%;
+        padding-left: 20%;
+        padding-right: 75%;
+    }
+    
+    .navigator{
+        padding-right: 28%;
+    }
+    
+    .redes a{
+        padding: 10px;
+        padding-right: 0px;
+    }
+    
+    
+    .barra{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .barra a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        padding: 5px;
+    }
+    
+    .producers{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-top: -150px;
+        padding: 0px;
+    }
+    
+    .logo{
+        width: 200px;
+        height: 130px;
+    }
+}
+
+/* Fin Index*/
+
+
+
+
